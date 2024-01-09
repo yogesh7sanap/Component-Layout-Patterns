@@ -1,0 +1,91 @@
+Components and Layout Patterns
+============================================================================================================================
+Sections Intro-
+
+sliders, testomonials, z pattern, tables, navigations
+
+Flexbox and CSS GRID 
+============================================================================================================================
+Web Design Rule #10: Elements and Components
+
+From Elements to WebPage
+  -Seperate Elements are grouped together to from a Component
+  -Components group to forms a Layout and we build Layout using ->common layout patterns.
+  -layout forms a webpage
+
+A -Elements
+  1.text 
+  2.Buttons
+  3.Images
+  4.input Elements
+  5.Tags
+B -Components
+  1.BreadCrumbs
+  2. Pagination
+  3.Alert and status bars 
+  4.Statistics
+  5.Gallery
+  6.Feature Icon
+    -All of them uses icon or Image, Bigger Text
+  7.Preview or Profile Cards 
+  8.Accordion
+    -hiding info on click display e.g. FAQ
+  9.Tabs 
+    -e.g. product features in amazon
+  10.Carousal
+    -right or left movement 
+    -called slider 
+  11. Customer testomonial
+  12.Customer Logos
+  13.Featured in Logos
+  14.steps
+  15.Forms
+  16.Tables
+  17.Pricing Tables
+  18.Modal Window
+    -Functional Modal Window
+
+C -Section Components 
+D -Layout Patterns
+
+============================================================================================================================
+Building an Accordion Component Part 1:
+
+! + enter =>to get the html structure.
+lorem + enter =>to get the random text
+
+Using FlexBox in column direction 
+  -changing direction then gap will also be applied on that same direction.
+
+  -align-items =>for horizontal 
+  -justify content => for veritical
+============================================================================================================================
+Building an Accordion Component Part 2:
+
+Layout: 
+
+flex direction: column 
+
+open state => for javascript 
+
+============================================================================================================================
+Building a Carousel Component - Part 1:
+
+<blockquote></blockquote> =>we use it for testomonial text section which gives more symentic meaning. 
+
+To transform the images we use
+  -transform: scale( <scaling factor>);
+  -1 is the  normal scaling factor.
+
+============================================================================================================================
+Building a Carousel Component - Part 2: 
+
+positioned button as absolute 
+
+vertical/horizontal centering of the absolutely positioned element using transform : translate 
+**TIP refer slide.
+
+&nbsp; => not breaking space 
+  -Used just incase when we dont want to leave any empty space.
+============================================================================================================================
+
