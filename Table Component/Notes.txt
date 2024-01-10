@@ -1,0 +1,107 @@
+Components and Layout Patterns
+============================================================================================================================
+Sections Intro-
+
+sliders, testomonials, z pattern, tables, navigations
+
+Flexbox and CSS GRID 
+============================================================================================================================
+Web Design Rule #10: Elements and Components
+
+From Elements to WebPage
+  -Seperate Elements are grouped together to from a Component
+  -Components group to forms a Layout and we build Layout using ->common layout patterns.
+  -layout forms a webpage
+
+A -Elements
+  1.text 
+  2.Buttons
+  3.Images
+  4.input Elements
+  5.Tags
+B -Components
+  1.BreadCrumbs
+  2. Pagination
+  3.Alert and status bars 
+  4.Statistics
+  5.Gallery
+  6.Feature Icon
+    -All of them uses icon or Image, Bigger Text
+  7.Preview or Profile Cards 
+  8.Accordion
+    -hiding info on click display e.g. FAQ
+  9.Tabs 
+    -e.g. product features in amazon
+  10.Carousal
+    -right or left movement 
+    -called slider 
+  11. Customer testomonial
+  12.Customer Logos
+  13.Featured in Logos
+  14.steps
+  15.Forms
+  16.Tables
+  17.Pricing Tables
+  18.Modal Window
+    -Functional Modal Window
+
+C -Section Components 
+D -Layout Patterns
+
+============================================================================================================================
+Building a table Component: Part 1
+
+Not used a lot nowadays because of CSS GRID and Flexbox-
+
+But using the table where data is being displayed is more semantic
+
+    <table>
+    //table head 
+      <thead>
+        <th>
+          <td>
+          
+          </td>
+        </th>
+        <tr>
+          <td>
+          
+          </td>
+        </tr>
+      
+      </thead>
+
+      //table body
+      <tbody>
+        <tr>
+          <td>
+          
+          </td>
+        </tr>
+      
+      </tbody>
+    </table>
+
+<tr></tr> =>for table row 
+<td></td> =>for table data or table column 
+<th></th> =>for table head , can be used in a row.
+
+<thead></thead> =>grouping all the table head data 
+<tbody></tbody> =>grouping all the data of table 
+============================================================================================================================
+Building a table Component: Part 2
+
+border-collapse => will collapse two side by side borders using the property 'collapse' ;
+
+also
+
+To select different colors for different rows
+
+tbody tr:nth-child(odd) {
+        background-color: #f8f9fa;
+      }
+
+      tbody tr:nth-child(even) {
+        background-color: #e9ecef;
+      }
+============================================================================================================================
