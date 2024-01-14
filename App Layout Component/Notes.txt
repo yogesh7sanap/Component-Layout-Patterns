@@ -1,0 +1,94 @@
+Components and Layout Patterns
+============================================================================================================================
+Sections Intro-
+
+sliders, testomonials, z pattern, tables, navigations
+
+Flexbox and CSS GRID 
+============================================================================================================================
+Web Design Rule #10: Elements and Components
+
+From Elements to WebPage
+  -Seperate Elements are grouped together to from a Component
+  -Components group to forms a Layout and we build Layout using ->common layout patterns.
+  -layout forms a webpage
+
+A -Elements
+  1.text 
+  2.Buttons
+  3.Images
+  4.input Elements
+  5.Tags
+B -Components
+  1.BreadCrumbs
+  2. Pagination
+  3.Alert and status bars 
+  4.Statistics
+  5.Gallery
+  6.Feature Icon
+    -All of them uses icon or Image, Bigger Text
+  7.Preview or Profile Cards 
+  8.Accordion
+    -hiding info on click display e.g. FAQ
+  9.Tabs 
+    -e.g. product features in amazon
+  10.Carousal
+    -right or left movement 
+    -called slider 
+  11. Customer testomonial
+  12.Customer Logos
+  13.Featured in Logos
+  14.steps
+  15.Forms
+  16.Tables
+  17.Pricing Tables
+  18.Modal Window
+    -Functional Modal Window
+
+C -Section Components 
+D -Layout Patterns
+        
+============================================================================================================================
+Building a Web Application Layout -Part 1
+
+App Layout 
+
+Fake Email Application 
+
+Scrolling bar 
+
+<nav></nav> =>use for navigation bar having links to another page of app Application [Used Mostly]
+<menu></menu> => used with big web application to show menu  [Not used much]
+
+<main></main> => to show main piece of component 
+
+Used CSS GRID 
+
+============================================================================================================================
+Building a Web Application Layout -Part 2
+
+On Button always remove border 
+  -border:none;
+
+button:last-child {
+        background-color: #d6336c;
+        margin-left: auto;
+        //this will be calculated based on the container width
+      }
+
+Used flexbox in column direction
+
+Used flexbox to center content inside of flex item using another display:flex for each property.
+
+Scrolling in flex container 
+
+  change default shrinking to false 
+
+    /* for scrolling mechanism in case of flexbox*/
+        flex-shrink: 0;
+      
+  use overflow: scroll.
+    -overflow: scroll;
+============================================================================================================================
+
+============================================================================================================================
