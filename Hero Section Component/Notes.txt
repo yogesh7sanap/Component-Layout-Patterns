@@ -1,0 +1,95 @@
+Components and Layout Patterns
+============================================================================================================================
+Sections Intro-
+
+sliders, testomonials, z pattern, tables, navigations
+
+Flexbox and CSS GRID 
+============================================================================================================================
+Web Design Rule #10: Elements and Components
+
+From Elements to WebPage
+  -Seperate Elements are grouped together to from a Component
+  -Components group to forms a Layout and we build Layout using ->common layout patterns.
+  -layout forms a webpage
+
+A -Elements
+  1.text 
+  2.Buttons
+  3.Images
+  4.input Elements
+  5.Tags
+B -Components
+  1.BreadCrumbs
+  2. Pagination
+  3.Alert and status bars 
+  4.Statistics
+  5.Gallery
+  6.Feature Icon
+    -All of them uses icon or Image, Bigger Text
+  7.Preview or Profile Cards 
+  8.Accordion
+    -hiding info on click display e.g. FAQ
+  9.Tabs 
+    -e.g. product features in amazon
+  10.Carousal
+    -right or left movement 
+    -called slider 
+  11. Customer testomonial
+  12.Customer Logos
+  13.Featured in Logos
+  14.steps
+  15.Forms
+  16.Tables
+  17.Pricing Tables
+  18.Modal Window
+    -Functional Modal Window
+
+C -Section Components 
+D -Layout Patterns
+
+============================================================================================================================
+BUILDING HERO SECTION: PART 1
+
+Having a background images covering up entire view port of browser.
+Then in the middle always stay in the middle whenever we reduce the size of the browser.
+
+Choice of Typeface 
+  -google fonts -> rubik 
+
+We centered entire content but not the section or div -> so that we add [image/background color ] to entire section letter.
+
+Giving height to section of entire viewport 
+  -using vh unit for height e.g. height of 100vh [for entire viewport]
+    vh - viewport Height 
+  -with 100vh 
+    height give will always to 100% of view port height 
+
+Another Unit vw- view port width [rarely used ->since all elements of block scope which will occupy entire width]
+
+============================================================================================================================
+BUILDING HERO SECTION: PART 2
+
+Centering the header content with absolute positioning.
+
+Then diving parent into two parts using inner container.
+
+Adding background image 
+
+Shrinking image so that it will fit the header section
+  -use ->background-size : cover; 
+    -this will make image to cover the entire szie of the container element.
+
+Making image darker -> do that text content can be visible.
+  -creating linear gradient => means making image on top of another image. 
+
+   /* LINER GRADIENT ON BACKGROUND IMAGE */
+        /* background-image: linear-gradient(to right, red, blue); */
+   /* using linear gradient where image on top of another image */
+        background-image: linear-gradient(
+            rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)
+          ),
+          url(hero.jpg);
+        
+============================================================================================================================
